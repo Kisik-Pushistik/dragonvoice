@@ -1,0 +1,109 @@
+@media (max-width: 823px) {
+
+    .release {
+        width: calc(33.33333% - 16px);
+        margin-bottom: 16px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .release-title {
+        font-size: 12px
+    }
+
+    .numb-ep {
+        font-size: 10px;
+        padding: 3px;
+        opacity: 0.5;
+        width: 40px;
+    }
+
+    .anime-page {
+        flex-direction: column;
+    }
+
+    .anime-op,
+    .anime-info,
+    .bar-player,
+    .shapk img {
+        border: none;
+    }
+
+    .anime-info {
+        width: 100%;
+        z-index: 2;
+    }
+
+    .anime-player iframe {
+        height: 300px;
+        border-radius: 0px;
+    }
+
+    .anime-op {
+        background-color: transparent;
+        padding: 10px 30px 10px 30px;
+        box-shadow: inherit;
+    }
+
+    .anime-op h1 {
+        text-align: center;
+    }
+
+    .anime-op h3 {
+        text-align: center;
+    }
+
+    .shapk img {
+        border-radius: 0px;
+        object-fit: cover;
+        height: 300px;
+    }
+
+    .bar-player {
+        height: auto;
+        background-color: inherit;
+        box-shadow: inherit;
+    }
+
+    .button-episode {
+    justify-content: center;
+    }
+
+    .download-episodes {
+        width: 100%;
+        margin: 30px 30px 0px 30px;
+    }
+
+    .actor {
+        width: 60px;
+    }
+
+    .actor img {
+        width: 60px;
+    }
+
+    .actor a {
+        font-size: 12px;
+    }
+
+    .categories {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .logo img {
+        width: 250px;
+        margin: 0px;
+    }
+
+}
+
+
+@media (max-width: 400px) {
+    .release {
+        width: calc(50% - 24px);
+        margin-bottom: 16px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+}
